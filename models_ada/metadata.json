@@ -1,0 +1,28 @@
+{
+  "features": [
+    "Sexo",
+    "EDAD",
+    "IMC",
+    "PASI INICIAL ADA",
+    "ARTRITIS",
+    "N tratamientos previos"
+  ],
+  "models": {
+    "PASI75_w16": {
+      "path": "models_ada\\ada_PASI75_w16.joblib",
+      "n": 187,
+      "pos": 110,
+      "auc": 0.5906729634002362,
+      "prauc": 0.688706728137079,
+      "brier": 0.23725441459815688
+    },
+    "PASI90_w16": {
+      "path": "models_ada\\ada_PASI90_w16.joblib",
+      "n": 187,
+      "pos": 65,
+      "auc": 0.5073139974779319,
+      "prauc": 0.3604258156581678,
+      "brier": 0.22710913015992323
+    }
+  }
+}
